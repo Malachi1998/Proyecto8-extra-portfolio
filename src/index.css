@@ -1,0 +1,19 @@
+/*Este documento da estilos a mi documento main.jsx*/
+html {
+  font-size: 85.5%; /*Da tamaño al texto de encabezadod e mi home-page "DESARROLALDOR WEB JUNIOR
+  factoria f5" */
+}
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif'; 
+  color: yellow; 
+  background: #022c43; /*da color de fondo a loq ue se ve detrás del Logo gigante o foto*/
+  overflow: hidden;
+  display: block;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+

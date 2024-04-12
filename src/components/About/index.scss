@@ -1,0 +1,31 @@
+.image-content {
+  width: 30%; // Ajusta el ancho del área del carrusel de imágenes
+  margin-left: 65rem;
+  border-radius: 5%;
+  animation-name: slideInRight; // Nombre de la animación
+  animation-duration: 5s; // Duración de la animación
+  animation-fill-mode: both; // La animación se aplica antes y después
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%); // La imagen comienza fuera del área visible hacia la derecha
+  }
+  to {
+    transform: translateX(0); // La imagen se desplaza hacia la izquierda para ingresar al área visible
+  }
+}
+
+.image-content img {
+  width: 100%; // Ajusta el ancho de la imagen para que ocupe todo el espacio disponible
+  margin-top: 1rem; // Margen superior de la imagen
+  margin-bottom: 1rem; // Margen inferior de la imagen
+}
+
+
+
+.textAboutMe {
+  text-size-adjust: 9rem;
+  text-align: center; // Centra
+}
+

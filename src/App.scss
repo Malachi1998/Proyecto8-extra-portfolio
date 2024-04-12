@@ -1,0 +1,45 @@
+$primary-color:#ffd700; //introduce el color primario de la web
+
+@import 'animate.css'; //es necesario importar este archivo para poder usar el color primario, ya que el color esta en este archivo
+//@import '~loaders.css/src/animatins/pacman.scss'
+
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,
+textarea {
+  font-family: 'Helvetica Neue';
+}
+
+.loader-active { //animaciones del pacman
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+
+body {
+  background-color: black;
+  color: red;
+} //no se está aplicando porque el css padre (index.css) está vinculado a main.jsx y esto le da prelación sobre los estilos de Ap.scss vinculados al App.jsx (que e shijo de main)
